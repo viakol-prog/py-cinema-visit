@@ -4,12 +4,11 @@ from app.cinema.hall import CinemaHall
 from app.cinema.bar import CinemaBar
 from typing import List, Dict
 
-
 def cinema_visit(
-    movie: str,
     customers: List[Dict[str, str]],
     hall_number: int,
-    cleaner: str
+    cleaner: str,
+    movie: str
 ) -> None:
     customers_list = []
 
