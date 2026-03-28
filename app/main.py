@@ -4,6 +4,7 @@ from app.cinema.hall import CinemaHall
 from app.cinema.bar import CinemaBar
 from typing import List, Dict
 
+
 def cinema_visit(
     customers: List[Dict[str, str]],
     hall_number: int,
